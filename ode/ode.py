@@ -12,7 +12,7 @@ def euler(f, x0, y0, h, n):
     Returns:
         list: Lista de valores de y.
 
-    Example:
+    Ejemplo:
         >>> f = lambda x, y: x + y
         >>> euler(f, 0, 1, 0.1, 10)
         [1, 1.1, 1.21, 1.331, ...]
